@@ -1,9 +1,8 @@
 array = ["fiddleheads","okra","kohlrabi"]
-# "fiddleheads, okra, and kohlrabi"
-def new_array
-  array << "and"
-end
-
+array << "and "
 def oxford_comma(array)
-  new_array.join(", ")
+  array.join(", ")
+
 end
+oxford_comma(array)
+# "fiddleheads, okra, and kohlrabi"
