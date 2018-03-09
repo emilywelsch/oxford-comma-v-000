@@ -1,9 +1,11 @@
+# array = ["emily"]
 # array = ["this","that"]
 # array = ["fiddleheads","okra","kohlrabi"]
 # array = ["fiddleheads","okra","kohlrabi", "emily"]
 
 def oxford_comma(array)
-  if array.count == 2
+  if array.count == 1
+  elsif array.count == 2
     array.join(" and ")
   else array.count >= 3
     array[array.count-1] = "and " + array[array.count-1]
