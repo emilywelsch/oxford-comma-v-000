@@ -10,5 +10,5 @@ def oxford_comma(array)
     array.join(", ")
     end
 end
-oxford_comma(array)
+# oxford_comma(array)
 # "fiddleheads, okra, and kohlrabi"
