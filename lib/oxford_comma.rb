@@ -1,6 +1,6 @@
 # array = ["this","that"]
-array = ["fiddleheads","okra","kohlrabi"]
-# array = ["fiddleheads","okra","kohlrabi", "emily"]
+# array = ["fiddleheads","okra","kohlrabi"]
+array = ["fiddleheads","okra","kohlrabi", "emily"]
 # array.push("and ")
 # array << "and "
 def oxford_comma(array)
